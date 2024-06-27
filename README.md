@@ -1,3 +1,5 @@
+Created a shopping cart using React that allows users to add and remove items from the cart.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
