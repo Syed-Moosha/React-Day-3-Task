@@ -28,11 +28,11 @@ const Products = ({ products, productInc, productDec }) => {
                         <h5 className="fw-bolder">{ele.prod}</h5>
                         {ele.star ? (
                           <div className="d-flex justify-content-center small text-warning mb-2">
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
-                            <span className="fa fa-star"></span>
+                            <span className="fa fa-star">⭐</span>
+                            <span className="fa fa-star">⭐</span>
+                            <span className="fa fa-star">⭐</span>
+                            <span className="fa fa-star">⭐</span>
+                            <span className="fa fa-star">⭐</span>
                           </div>
                         ) : (
                           ""
@@ -84,6 +84,6 @@ const Products = ({ products, productInc, productDec }) => {
   );
 };
 
-    
+
 
 export default Products;
